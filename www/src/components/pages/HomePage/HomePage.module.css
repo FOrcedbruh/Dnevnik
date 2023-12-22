@@ -1,0 +1,93 @@
+.window {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.variants {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.variants article {
+    width: 100%;
+    height: 120px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 20px;
+    color: #000;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    cursor: pointer;
+    transition: all .2s ease;
+}
+.link {
+    text-decoration: none;
+    color: #000;
+    width: 80%;
+    height: 100%;
+}
+article.goal {
+    align-items: start;
+    justify-content: center;
+    flex-direction: row;
+}
+.variants article:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #4E4BF2;
+}
+.variants article p span {
+    color: #ECE3CA;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.variants article h3.goalTitle {
+    font-size: 20px;
+    color: #ECE3CA;
+}
+span.goalPeriod {
+    color: #ECE3CA;
+}
+.btn {
+    margin-left: 20vh;
+    width: 80px;
+    height: 80px;
+    background-color: #ECE3CA;
+    border-radius: 50%;
+    align-self: end;
+    margin-bottom: 18vh;
+    transition: transform .3s ease-in-out;
+    cursor: pointer
+}
+.btn:hover {
+    transform: rotate(180deg);
+}
+.actions {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity .5s ease;
+}
+.actions img {
+    width: 30px;
+    height: 30px;
+}
+.actions img.doneIcon {
+    width: 46px;
+    height: 42px;
+}

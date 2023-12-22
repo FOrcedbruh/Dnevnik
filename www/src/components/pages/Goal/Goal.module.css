@@ -1,0 +1,29 @@
+.window {
+    width: 100%;
+    height: 100%;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    padding: 40px;
+}
+.window div {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 80%;
+    height: 100%;
+}
+.period p {
+    font-weight: 700;
+    font-size: 20px;
+}
+.period p span{
+    color: #ECE3CA;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
